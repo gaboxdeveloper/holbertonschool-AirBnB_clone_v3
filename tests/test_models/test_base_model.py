@@ -320,4 +320,4 @@ class TestBaseModel(unittest.TestCase):
         new2 = BaseModel
         self.assertFalse(isinstance(new2.id, str))
         self.assertFalse(isinstance(new2.created_at, str))
-        self.assertFalse(isinstance(new2.updated_at, str))    
+        self.assertFalse(isinstance(new2.updated_at, str))
